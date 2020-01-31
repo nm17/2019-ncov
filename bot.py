@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from colorama import init
+from colorama import init, Fore
 
 from config import TOKEN
 from game import nCoV
