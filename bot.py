@@ -4,7 +4,6 @@ from colorama import init
 
 from config import TOKEN
 from game import nCoV
-from texts import *
 
 init(autoreset=True)
 
