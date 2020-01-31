@@ -2,13 +2,14 @@ from datetime import datetime
 
 from colorama import init
 
+from config import TOKEN
 from game import nCoV
 from texts import *
 
 init(autoreset=True)
 
 wrapper = nCoV(
-    access_token="",
+    access_token=TOKEN,
 )
 
 ill = f"{Fore.RED}Болен{Style.RESET_ALL}"
